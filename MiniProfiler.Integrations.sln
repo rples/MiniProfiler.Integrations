@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.Integrations", "MiniProfiler.Integrations\MiniProfiler.Integrations.csproj", "{DFFE67EE-B97B-4F6D-BB58-D15146A28883}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{97E255
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.Integrations.AspNetCore", "MiniProfiler.Integrations.AspNetCore\MiniProfiler.Integrations.AspNetCore.csproj", "{595788A5-C974-42FB-96B9-D7E2A1D61B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{CC264E65-138E-4048-BC31-16CC6125C08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC264E65-138E-4048-BC31-16CC6125C08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC264E65-138E-4048-BC31-16CC6125C08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595788A5-C974-42FB-96B9-D7E2A1D61B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595788A5-C974-42FB-96B9-D7E2A1D61B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595788A5-C974-42FB-96B9-D7E2A1D61B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595788A5-C974-42FB-96B9-D7E2A1D61B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93ABD34B-75C1-4161-A785-E0437EB0A0AC}
 	EndGlobalSection
 EndGlobal
